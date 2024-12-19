@@ -12,6 +12,7 @@ import java.time.LocalDate;
 @Data
 @Table(name = "image")
 public class Image {
+	// cargo-image version2
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idImage;

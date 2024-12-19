@@ -16,7 +16,7 @@ import java.security.SecureRandom;
 @RequestMapping("/api")
 @CrossOrigin(origins = "*")
 public class ImageUploadController {
-
+	// cargo-image version2
     //private static final String UPLOAD_DIR = "C:\\Users\\khalid Bouhssine\\Desktop\\imgs\\";
 	private static final String UPLOAD_DIR = "C:\\Users\\Yassine ELAARFAOUI\\OneDrive\\Desktop\\imgs\\";
 
