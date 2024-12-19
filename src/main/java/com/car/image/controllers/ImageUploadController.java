@@ -49,7 +49,7 @@ public class ImageUploadController {
             // Sauvegarder le nom de l'image dans la base de données
             Image savedImage = imageService.saveImage(randomFileName);
 
-            return ResponseEntity.ok().body(new ResponseMessage("ID Image : " + savedImage.getIdImage()));
+            return ResponseEntity.ok().body(new ResponseMessage(""+ savedImage.getIdImage()));
         } catch (IOException e) {
             return ResponseEntity.status(500).body(new ResponseMessage("Erreur lors de l'upload : " + e.getMessage()));
         }
